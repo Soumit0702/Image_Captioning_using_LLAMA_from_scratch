@@ -49,7 +49,6 @@ This project follows an **Encoder–Decoder framework** for Image Captioning.
 
 ###  Architecture Flow  
 
-```mermaid
 flowchart LR
     A[Input Image] --> B[CLIP Encoder (ViT)]
     B --> C[Image Embedding (1024-dim)]
